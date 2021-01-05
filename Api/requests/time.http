@@ -1,0 +1,17 @@
+POST https://localhost:5001/api/time
+Content-Type: application/json
+
+{
+  "TecnicoDTO": {
+    "Nome":"Nelson"
+  },
+  "QuartoArbitroDTO": {
+    "Nome":"Luiz"
+  },
+  "JogadorEmCampoDTO": {
+    "Nome":"Peralta"
+  },
+  "JogadorNoBancoDTO": {
+    "Nome":"Marcel"
+  }
+}
